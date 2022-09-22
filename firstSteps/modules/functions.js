@@ -5,6 +5,9 @@ function addTodo () {
         id: `${Math.random()}`
     }
     todos.push(todo);
+    let lastElement = todo.name;
+       document.getElementById("task").value += lastElement; 
+    
     render();
 }
 
@@ -29,6 +32,11 @@ function deleteTodo (id) {
     })
 }
 
+/*function Tasks () {
+    todos.forEach(todo => {
+        
+    }) 
+}*/
 function render() {
     console.log(todos);
     console.log(equipments);
