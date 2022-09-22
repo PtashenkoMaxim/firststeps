@@ -30,7 +30,7 @@ function deleteTodo (id) {
             todo.done = true;
         }
     })
-}
+}//fasdfasfasdasdasdasd
 
 function render() {
     console.log(todos);
